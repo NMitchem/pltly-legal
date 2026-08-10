@@ -52,7 +52,7 @@ reject() {  # reject <label> <path> <pattern>
 
 echo "Privacy policy:"
 require_nonempty privacy
-check "contact address"      privacy "noahmitchy@yahoo.com"
+check "contact address"      privacy "pltly@noahmitchem.com"
 check "health section"       privacy "Health data"
 check "no-advertising claim" privacy "never used for advertising"
 check "no-sale claim"        privacy "we do not sell"
@@ -67,7 +67,7 @@ require_nonempty terms
 check "age floor"            terms "13 or older"
 check "24-hour commitment"   terms "24 hours"
 check "fitness disclaimer"   terms "not medical advice"
-check "contact address"      terms "noahmitchy@yahoo.com"
+check "contact address"      terms "pltly@noahmitchem.com"
 check "last updated"         terms "Last updated"
 check "links to privacy"     terms "/pltly-legal/privacy"
 
